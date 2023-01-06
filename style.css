@@ -38,14 +38,16 @@ header .section-description h1{
     border-radius: 5px;
 }
 /* end of header section style */
-
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /* start of previous year style */
 .previous-year{
     display: flex;
     justify-content: space-around;
     gap: 100px;
-    max-width: 1200px;
-    margin: 200px auto;
+    margin: 200px 0;
 }
 div .section-description h1{
     font-size: 40px;
@@ -65,3 +67,33 @@ div .list .list-item img{
 /* end of previous year style */
 
 /* start of plan style */
+.plan{
+    margin: 200px 0;
+}
+.plan .section-title h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plan .section-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan .items{
+    text-align: center;
+}
+.plan img{
+    height: 100px;
+}
+.plan h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.plan p{
+    font-size: 25px;
+    font-weight: 500;
+}
+/* end of plan style */
