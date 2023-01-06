@@ -11,7 +11,7 @@ header{
     background-image: url('images/banner/banner3.png');
     background-size: cover;
 }
-header .header-description{
+header .section-description{
     text-align: right;
     color: white;
     padding-top: 14%;
@@ -19,11 +19,11 @@ header .header-description{
     padding-right: 14%;
     padding-left: 60%;
 }
-header .header-description h1{
+header .section-description h1{
     font-size: 65px;
     font-weight: 700;
 }
-header .header-description p{
+.section-description p{
     font-size: 16px;
     font-weight: 400;
     padding: 30px 0;
@@ -39,3 +39,31 @@ header .header-description p{
 }
 /* end of header section style */
 
+/* start of previous year style */
+.previous-year{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 200px auto;
+}
+div .section-description h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 100px;
+    margin-top: 250px;
+}
+div .list{
+    
+}
+div .list .list-item{
+    display: flex;
+    align-items: center;
+    margin: -50px auto;
+}
+div .list .list-item img{
+    height: 30px;
+}
+/* end of previous year style */
+
+/* start of plan style */
