@@ -57,6 +57,7 @@ div .list .list-item{
     display: flex;
     align-items: center;
     margin: -50px auto;
+    gap: 10px;
 }
 div .list .list-item img{
     height: 30px;
