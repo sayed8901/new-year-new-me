@@ -124,6 +124,12 @@ header p{
 /* end of style for banner */
 /* end of plan section style */
 
+/* start of extra added contact section style */
+.contact{
+    justify-content: space-around;
+}
+/* end of extra added contact section style */
+
 /* start of footer section style */
 footer{
     background-color: #151414;
