@@ -146,13 +146,14 @@ footer p{
     border: 0;
     border-radius: 5px;
 }
-footer .form h2{
+.form h2{
     margin-bottom: 30px;
     font-size: 25px;
     font-weight: 700;
 }
-footer form input{
+.form input{
     padding: 15px;
+    color: white;
     font-size: 20px;
     font-weight: 600;
     border: 1px solid white;
@@ -160,3 +161,9 @@ footer form input{
     background-color: #151414;
     width: 300px;
 }
+::placeholder{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* end of footer section style */
