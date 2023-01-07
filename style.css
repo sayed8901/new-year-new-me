@@ -59,14 +59,15 @@ header p{
     padding-right: 100px;
     margin-top: 250px;
 }
-
-div .list .list-item{
+.list{
+    margin: 10px auto;
+}
+.list-item{
     display: flex;
     align-items: center;
-    margin: 10px auto;
     gap: 10px;
 }
-div .list .list-item img{
+.list-item img{
     height: 30px;
 }
 /* end of previous year style */
