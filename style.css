@@ -70,6 +70,10 @@ header p{
 .prev-year-section-description{
     padding-right: 100px;
     margin-top: 250px;
+    color: #444343;
+}
+.prev-year-section-description h1{
+    color: black;
 }
 .list{
     margin: 10px auto;
@@ -94,10 +98,12 @@ header p{
 }
 .items img{
     height: 100px;
+    margin-bottom: 30px;
 }
 .items p{
     font-size: 25px;
     font-weight: 500;
+    color: #737272;
 }
 /* end of plan section style */
 
