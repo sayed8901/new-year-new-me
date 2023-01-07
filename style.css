@@ -102,7 +102,7 @@ header p{
 
 /* start of style for banner */
 .banner{
-    background-image:url('images/watch.png'), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-image:url('images/watch.png'), linear-gradient(90deg, rgb(0, 162, 255) 0%, rgba(0, 95, 172, 0) 100%);
     background-blend-mode: multiply;
     background-size: cover;
     padding: 80px 70px;
@@ -115,7 +115,6 @@ header p{
     width: 45%;
 }
 /* end of style for banner */
-
 /* end of plan section style */
 
 /* start of footer section style */
@@ -124,19 +123,31 @@ footer{
     color: white;
     display: flex;
     justify-content: space-between;
-    padding: 150px 350px 150px 320px;
+    padding: 7% 17%;
 }
 footer .details{
     width: 40%;
 }
 footer h1{
     font-size: 45px;
-    font-weight: 700;
 }
 footer p{
     margin: 20px auto;
-    font-size: 16px;
-    font-weight: 400;
+}
+.form h2{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.form input{
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #151414;
+    width: 300px;
+}
+::placeholder{
+    color: white;
 }
 .subscribe-btn{
     background-color:  #005FAC;
@@ -145,26 +156,6 @@ footer p{
     font-size: 20px;
     font-weight: 600;
     border: 0;
-    border-radius: 5px;
-}
-.form h2{
-    margin-bottom: 30px;
-    font-size: 25px;
-    font-weight: 700;
-}
-.form input{
-    padding: 15px;
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: #151414;
-    width: 300px;
-}
-::placeholder{
-    color: white;
-    font-size: 18px;
-    font-weight: 400;
+    border-radius: 7px;
 }
 /* end of footer section style */
