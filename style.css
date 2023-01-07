@@ -90,6 +90,7 @@ header p{
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    gap: 50px;
 }
 .items img{
     height: 100px;
