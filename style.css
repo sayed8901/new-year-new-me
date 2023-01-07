@@ -9,25 +9,37 @@ p{
 }
 h1{
     font-size: 40px;
-    font-weight: 700;
     margin-bottom: 30px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+h1, h2{
+    font-weight: 700;
 }
 
 .btn-primary{
     background-color: white;
-    padding: 15px 30px;
+    padding: 20px 25px;
     color: #005FAC;
     font-size: 20px;
     font-weight: 600;
     border: 0;
     border-radius: 5px;
 }
+.section{
+    margin: 200px 0;
+    text-align: center;
+}
 /* common styles */
 
+/* start of main section style */
 main{
     max-width: 1200px;
     margin: 0 auto;
 }
+/* end of main section style */
 
 /* start of header section style*/
 header{
@@ -73,51 +85,34 @@ header p{
 /* end of previous year style */
 
 /* start of plan section style */
-.plan{
-    margin: 200px 0;
-}
-.plan .section-title h1{
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 50px;
-}
-.plan .section-item{
+.section-item{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
-.plan .items{
-    text-align: center;
-}
-.plan img{
+.items img{
     height: 100px;
 }
-.plan h2{
-    font-size: 30px;
-    font-weight: 700;
-    margin: 20px 0;
-}
-.plan p{
+.items p{
     font-size: 25px;
     font-weight: 500;
 }
+/* end of plan section style */
 
 /* start of style for banner */
 .banner{
     background-image:url('images/watch.png'), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
     background-blend-mode: multiply;
     background-size: cover;
-    padding: 50px;
+    padding: 80px 70px;
     margin-top: 150px;
     border-radius: 10px;
-}
-.banner h1{
-    width: 45%;
+    text-align: left;
     color: white;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 30px;
+}
+.content{
+    width: 45%;
 }
 /* end of style for banner */
 
