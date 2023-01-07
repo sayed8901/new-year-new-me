@@ -66,7 +66,7 @@ div .list .list-item img{
 }
 /* end of previous year style */
 
-/* start of plan style */
+/* start of plan section style */
 .plan{
     margin: 200px 0;
 }
@@ -96,4 +96,25 @@ div .list .list-item img{
     font-size: 25px;
     font-weight: 500;
 }
-/* end of plan style */
+
+/* start of style for banner */
+.banner{
+    background-image:url('images/watch.png'), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 50px;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+.banner h1{
+    width: 45%;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+/* end of style for banner */
+
+/* end of plan section style */
+
+/* start of footer section style */
